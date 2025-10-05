@@ -1,0 +1,12 @@
+# robots.txt for QuickCart
+User-agent: *
+Allow: /
+
+# Disallow unnecessary admin or system directories
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.quickcart.com/sitemap.xml
